@@ -13,5 +13,7 @@ async def on_ready():
 @bot.command()
 async def ping(ctx):
     await ctx.send("Pong!")
+import os
 
-bot.run("MTQ4MTYxMzU4MjI5Nzg1ODE1MA.GKOLow.jRHb33-sVcMk0NJYXdmoDt12Fl4khGm-wbZkiI")
+bot.run(os.getenv("MTQ4MTYxMzU4MjI5Nzg1ODE1MA.GaVmE6.xo_dCES9FgrWUlf-Y2VbKgrgYPJ9xrmFsAdAnQ"))
+
